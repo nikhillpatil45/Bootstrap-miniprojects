@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog-Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Sacramento&display=swap" rel="stylesheet">
+    <style>
+        .navbar-brand {
+            color: #9a7859;
+            font-size: 3rem;
+            font-family: 'Caprasimo', cursive;
+        }
+
+        .navbar-brand:hover {
+            color: white;
+            height: 20rem;
+        }
+
+        .nav-item {
+            font-size: 1.2rem;
+            color: #9a7859 !important;
+        }
+
+        .nav-item:hover {
+            color: white !important;
+            font-size: 1.4rem;
+            font-weight: bold;
+            transition: font-size 1s;
+
+        }
+
+        .flex-container {
+            margin-left: 30px;
+            display: flex;
+        }
+        .row{
+            max-width: 65%;
+            height: 65%;
+        }
+
+        .form-control,
+        .btn {
+            margin-top: 24px;
+            margin-left: 43px;
+        }
+
+        .card-img-top {
+            height: 20rem;
+            align-items: center;
+            
+            object-fit: cover;
+        }
+
+        .card {
+            margin: 43px;
+            box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+        }
+
+        #form1 {
+            border: 3px solid #f0e7df;
+            color: #9a7859;
+        }
+
+
+        .card-title {
+            font-family: 'Sacramento', cursive;
+            font-size: 2.5rem;
+            font-weight: 200;
+            padding: none;
+            color: #9a7859;
+        }
+        
+        .card-text {
+            font-style: italic;
+            color: #9a7859;
+        }
+
+        .page-item.active .page-link,
+        .page-item.active .page-link:hover {
+            color: #fff;
+            background-color: #9a7859;
+            border-color: white;
+        }
+
+        .page-item .page-link {
+            color: #9a7859;
+        }
+
+        .page-item .page-link:hover {
+            background-color: #f0e7df;
+            color: #9a7859;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-sm" style="background-color:#f0e7df;">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="mx-auto">
+                    <a class="navbar-brand " href="#">My Blog</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-sm " style="background-color:#f0e7df;">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="mx-auto">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active px-5" href="#">Home</a>
+                        <a class="nav-item nav-link px-5" href="Index.html">About</a>
+                        <a class="nav-item nav-link px-5" href="qualification.html">Qualification & Skills</a>
+                        <a class="nav-item nav-link px-5" href="project.html">Projects</a>
+                        <a class="nav-item nav-link px-5" href="contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+    </nav>
+
+    <!--content-->
+    <div class="flex-container">
+        <div class="row col-9 mt-4">
+            <img src="https://www.wingstechsolutions.com/wp-content/uploads/2022/03/full-stack-development.gif"
+                alt="picture">
+        </div>
+        <div class="col-3">
+            
+            <div class="card mt-4" width="5rem">
+                <img class="card-img-top" src="profile_pic.jpg" alt="my photo">
+                <div class="card-body">
+                    <h5 class="card-title text-center">About Me</h5>
+                    <hr>
+                    <p class="card-text">Hello, my name is Nikhil Patil and I Have Completes my Bachelors in
+                        Electronics and Telecommunications Engineering.
+                        To know more about me click on the About!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Pagination-->
+    <nav>
+        <ul class="pagination mt-3 justify-content-center">
+            <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1">Previous</a>
+            </li>
+            <li class="page-item  active"><a class="page-link" href="#">1<span class="sr-only"></span></a></li>
+            <li class="page-item">
+                <a class="page-link" href="Index.html">2 </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="qualification.html">3</a></li>
+            <li class="page-item"><a class="page-link" href="project.html">4</a></li>
+            <li class="page-item "><a class="page-link" href="contact.html">5</a></li>
+            <li class="page-item">
+                <a class="page-link" href="about.html">Next</a>
+            </li>
+        </ul>
+    </nav>
+
+</body>
+
+</html>

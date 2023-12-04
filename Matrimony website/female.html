@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bride-Blessed Matrimony</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href=
+"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+<style>
+  body{
+    overflow: hidden;
+  }
+    .nav-link,
+        .navbar-brand{
+            color: white;
+        }
+        .navbar-nav{
+            padding-left: 15rem;
+        }
+        .dropdown-menu{
+            border-color: #fc5c65;
+            font-style: italic;
+            background-color: white;
+        }
+        .d-flex{
+            height: 40px;
+            padding-top: 2px;
+            padding-left: 119px;
+            width: 40%;
+        }
+        .form-control{
+          border-radius:0%;
+        }
+        #search{
+          padding-top: 6px;
+        }
+        .dropdown-item{
+          color: black;
+        }
+        h4{
+          text-align: center;
+          padding-top: 10px;
+        }
+        img{
+          height: 16rem;
+          object-fit: cover;
+          object-position: 1px 10%;
+          
+        }
+        .card{
+          padding: 10px;
+          margin-left: 40px;
+        }
+
+</style>
+</head>
+<body>
+    <div class="container-fluid">
+        <!--navigation bar-->
+          <div class="row">
+              <nav class="navbar navbar-light navbar-expand-lg bg-dark "data-bs-theme="dark">
+                  <h1 class="navbar-brand m-2 pl-5">Blessed Matrimony</h1>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                      <div class="navbar-nav">
+                        <a class="nav-link" href="home.html" style="color:	#fc5c65">Home</a>
+                        <div class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle active" href="#"  data-bs-toggle="dropdown">Browse By</a>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="male.html">Groom</a>
+                            <hr class="dropdown-divider">
+                            <a class="dropdown-item" href="#">Bride</a>
+                          </div>
+                      </div>
+                        <a class="nav-link" href="#">My Profile</a>
+                        <a class="nav-link" href="#">Help</a>
+                        <a class="nav-link" href="#">Contact Us</a>
+                        <form class="d-flex" role="search">
+                          <input class="form-control" type="search" placeholder="Search">
+                          <button class="btn btn-outline-danger" type="submit" id="search">Search</button>
+                        </form>
+                        <a class="nav-link px-3" href="#" style="color: #fc5c65; font-size: 17.5px;"><i class="bi bi-person-circle"></i>&nbsp;LogIn</a>
+                        <a class="nav-link" href="#"><i class="bi bi-facebook" ></i></a>
+                        <a class="nav-link" href="#"><i class="bi bi-instagram"></i></a>
+                      </div>
+                    </div>
+              </nav>
+          </div>
+          <div class="row">
+            <h4>Top Matches for You</h4>
+            <div class="card mt-4" style="width: 18rem;">
+              <img src="https://images.unsplash.com/photo-1623091411395-09e79fdbfcf3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kaWFuJTIwd29tYW58ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="woman 1">
+              <div class="card-body">
+                <h5 class="card-title">Ananya Pandey<i class="bi bi-patch-check-fill" style="color: rgb(16, 119, 255); padding-left: 4px;"></i></h5>
+                <p class="card-text">Age: 27 New Delhi</p>
+                <a href="#" class="btn btn-success">Start Chatting</a>
+                <a href="#" class="btn btn-danger"><i class="bi bi-flag-fill"></i>Report</a>
+              </div>
+            </div>
+            <div class="card mt-4" style="width: 18rem;">
+              <img src="https://img.freepik.com/free-photo/indian-hindu-girl-traditional-violet-saree-sitting-cafe-table_627829-1989.jpg?w=2000" alt="woman 2">
+              <div class="card-body">
+                <h5 class="card-title">Meenakshi S.<i class="bi bi-patch-check-fill" style="color: rgb(16, 119, 255); padding-left: 4px;"></i></h5>
+                <p class="card-text">Age:29 Kerala</p>
+                <a href="#" class="btn btn-success">Start Chatting</a>
+                <a href="#" class="btn btn-danger"><i class="bi bi-flag-fill"></i>Report</a>
+              </div>
+            </div>
+            <div class="card mt-4" style="width: 18rem; padding-left: 20px;">
+              <img src="https://images.unsplash.com/photo-1593439411281-6500cf61961c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGluZGlhbiUyMHdvbWFufGVufDB8fDB8fHww&w=1000&q=80" alt="woman 3">
+              <div class="card-body">
+                <h5 class="card-title">Suhana Kapoor<i class="bi bi-patch-check-fill" style="color: rgb(16, 119, 255); padding-left: 4px;"></i></h5>
+                <p class="card-text">Age: 29 Mumbai</p>
+                <a href="#" class="btn btn-success">Start Chatting</a>
+                <a href="#" class="btn btn-danger"><i class="bi bi-flag-fill"></i>Report</a>
+            </div>
+          </div>
+          <div class="card mt-4" style="width: 18rem; padding-left: 20px;">
+            <img src="https://www.aljazeera.com/wp-content/uploads/2022/01/Ragini-Das-Co-founder-leap.club_.jpg?resize=1800%2C1800" alt="woman 4">
+            <div class="card-body">
+              <h5 class="card-title">Anita Singh<i class="bi bi-patch-check-fill" style="color: rgb(16, 119, 255); padding-left: 4px;"></i></h5>
+              <p class="card-text">Age: 32 Kolkata</p>
+              <a href="#" class="btn btn-success">Start Chatting</a>
+              <a href="#" class="btn btn-danger"><i class="bi bi-flag-fill"></i>Report</a>
+          </div>
+        </div>
+          </div>
+          </div>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"
+  ></script>   
+</body>
+</html>
